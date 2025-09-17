@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_Inicio" />
+        <item
+            android:id="@+id/nav_Reportes"
+            android:title="@string/menu_Reportes" />
+
+        <item
+                android:id="@+id/nav_convertir_dinero"
+                android:title="@string/menu_Convertidor_de_Dinero" />
+        <item
+            android:id="@+id/nav_Bancos"
+            android:title="@string/menu_Bancos" />"
+    </group>
+
+</menu>

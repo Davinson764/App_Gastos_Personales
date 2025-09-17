@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_Inicio">
+
+    <fragment
+        android:id="@+id/nav_Inicio"
+        android:name="com.example.app_gastospersonales.ui.home.HomeFragment"
+        android:label="@string/menu_Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Reportes"
+        android:name="com.example.app_gastospersonales.ui.gallery.GalleryFragment"
+        android:label="@string/menu_Reportes"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_Perfil"
+        android:name="com.example.app_gastospersonales.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_Perfil"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_convertir_dinero"
+        android:name="com.example.app_gastospersonales.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_Convertidor_de_Dinero"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
